@@ -1,3 +1,7 @@
+<?php 
+$base_url="http://localhost/workana/"
+?>
+
 <!doctype html>
 <html lang="en">
 
@@ -24,13 +28,13 @@
                         class="visually-hidden">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Empleados</a>
+                <a class="nav-link" href="<?php $base_url?>/modules/empleados/">Empleados</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Puestos de Empleados</a>
+                <a class="nav-link" href="<?php $base_url?>/modules/puestos/">Puestos de Empleados</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Usuarios</a>
+                <a class="nav-link" href="<?php $base_url?>/modules/usuarios/">Usuarios</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Logout</a>
